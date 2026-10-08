@@ -1,3 +1,7 @@
 print("j'ai faim")
 print("ok theo on a compris")
+<<<<<<< Updated upstream
 print("je crois pas que tu ais vraiment compris à quel point G faim!!!!!")
+=======
+print("moi aussi")
+>>>>>>> Stashed changes
