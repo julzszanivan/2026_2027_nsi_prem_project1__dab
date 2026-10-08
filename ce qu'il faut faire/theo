@@ -1,0 +1,6 @@
+je fais l'identification
+tout d'abord j'essaye de faire l'identification d'une seule personne
+en commencant par definir un utilisateur avec un code, un montant et un plafon
+faire le code demander soit demander de rentrer un code à 4 chiffre avec 3 erreur possible
+une fois cela fait, j'essai de créer une liste pour qu'il y est plusieurs compte possible
+
