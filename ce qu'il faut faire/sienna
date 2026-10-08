@@ -1,0 +1,9 @@
+voici le retrait:
+on cherche a savoir quel message envoyer apres que le client ai donné son montant.
+Il y aura donc 3 conditions dans le programme: que ce soit un montant divisible par 10, qu'il soit inferieur au plafond, et qu'il soit inferieur a la solde
+
+
+1. si le reste de la divison euclidienne du montant donné par 10 nest pas egal a 0 : redemander une somme
+2. si  montant donné superieur au solde :  redemander une somme inferieur a celui-ci
+3. si montant donné superieur au plafond :  redemander une somme inferieur a celui-ci
+4. sinon: mettre a jour le solde (solde-montant_donné)
