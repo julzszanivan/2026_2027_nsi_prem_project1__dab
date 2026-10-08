@@ -1,0 +1,20 @@
+def retrait():
+    print ("===========")
+    print ("--Retrait--")
+    print ("===========")
+    plafond = 300 # plafond a donne dans le menu
+    solde = 500  # solde a donne dans le menu
+    i = 0
+    while i==0:
+        montant_donne = float(input("Veuillez entrer un montant à retirer."))
+        if montant_donne%10 != 0:
+            print ("Veuillez entrer une valeur divisible par 10.")
+        elif montant_donne>plafond:
+            print ("Vous avez dépassé votre plafond, veuillez remettre une valeur inférieur à celui-ci.")
+        elif montant_donne>solde:
+            print ("Vous n'avez pas assez d'argent pour retirer cette somme, veuillez remettre une valeur inférieur a votre solde.")
+        else:
+            print ("Action réussie, cette somme a été débité de votre compte.")
+            i=1              
+                          
+retrait()
